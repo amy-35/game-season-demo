@@ -1,0 +1,56 @@
+#container{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: blue;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title{
+    font-size: 45px;
+    background-color: powderblue;
+    color: black;
+    min-width: 80vw;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#display{
+    min-width: 300px;
+    border: 1px solid powderblue;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+    color: powderblue;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    border: 0;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: powderblue;
+}
+
+#controlbutton{
+    margin: 30px 10px 30px 10px;
+    background-color: powderblue;
+    padding: 13px;
+    min-width: 300px;
+    border: 0px;
+    border-radius: 5px;
+}
