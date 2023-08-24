@@ -44,7 +44,7 @@ function disablebuttonsWhenGameIsWon(player){
         if (button.textContent === ""){
             button.toggleAttribute("disabled");
         }
-    }condition.textContent = player + " won the game";
+    }condition.textContent = player + " won the game!😁";
 }
 
 function checkDraw (){
@@ -53,5 +53,5 @@ function checkDraw (){
             return;
         }
     }
-    condition.textContent = " This is a Draw Game!";
+    condition.textContent = " This is a Draw Game!😎";
 }
