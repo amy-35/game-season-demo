@@ -53,11 +53,11 @@
 
 #controlbutton{
     margin: 30px 10px 30px 10px;
-    background-color: transparent;
+    background-color: powderblue;
     padding: 13px;
     min-width: 300px;
     border: 5px solid powderblue;
     border-radius: 5px;
     font-size: 18px;
-    color: powderblue;
+    color: black;
 }
